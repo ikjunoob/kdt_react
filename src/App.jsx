@@ -1,11 +1,11 @@
 import './App.css'
-import Section from './components/Section'
+import Button from './components/Button'
 
 function App() {
 
   return (
     <div>
-      <Section/>
+      <Button/>
       <h1>hello React!</h1>
     </div>
   )
