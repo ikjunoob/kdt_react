@@ -1,10 +1,15 @@
 import './App.css'
-import Button from './components/button'
-
+import Button from './components/Button'
+import Input from './components/Input'
 function App() {
+
 
   return (
     <div>
+      <Input
+        inputValue={'hello react'}
+        title={'input title'}
+        placeholder={'입력하세요'} />
       <h1>hello React!</h1>
       <Button text={'메일'} color={'red'} />
       <Button text={'카페'} color={'blue'} />
@@ -16,5 +21,3 @@ function App() {
     </div>
   )
 }
-
-export default App
