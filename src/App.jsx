@@ -1,12 +1,12 @@
 import './App.css'
-import Button from './components/Button'
+import Button from './components/button'
 
 function App() {
 
   return (
     <div>
-      <Button/>
       <h1>hello React!</h1>
+      <Button text={''}/>
     </div>
   )
 }

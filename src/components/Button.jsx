@@ -1,9 +1,9 @@
 import React from 'react'
 
 const button = () => {
-  return (
-    <div>button</div>
-  )
+    return (
+        <button>button</button>
+    )
 }
 
 export default button
