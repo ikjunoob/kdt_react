@@ -1,8 +1,10 @@
 import React from 'react'
 
-function About() {
+const About = () => {
   return (
-    <div>About</div>
+    <section>
+      <h1>About 페이지</h1>
+    </section>
   )
 }
 
