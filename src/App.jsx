@@ -1,13 +1,13 @@
-// App.jsx
-import './App.css';
-import TodoList from './components/TodoList';
+import React from "react";
+import MyComponent from "./components/MyComponent";
 
-function App() {
+const App = () => {
   return (
     <div>
-      <TodoList />
+      <h1>Context API Example</h1>
+      <MyComponent />
     </div>
   );
-}
+};
 
 export default App;
